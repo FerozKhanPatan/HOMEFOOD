@@ -1,11 +1,60 @@
+.section-hero{
+    
+    background-color: #fdf2e9;
+    padding: 9.6rem 0;
+}
+
 .hero{
 display: grid;
 grid-template-columns: 1fr 1fr;
-background-color: aqua;
 max-width: 130rem;
-margin: 0, auto;
+margin: 0 auto;
+align-items: center;
+gap: 9.6rem;
 }
 
 .hero-img{
 width: 100%;
+}
+
+.heading-primary{
+    color: #333;
+    font-size: 6.2rem;
+    line-height: 1.05;
+    font-weight: 700;
+    margin-bottom: 4.8rem;
+}
+
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 9px;
+    font-family: inherit;
+}
+
+.btn--full{
+    background-color: #e67e22;
+}
+
+.btn--full:hover{
+    background-color: #e07618;
+
+}
+
+.btn--outline{
+    background-color: #fff;
+    color: #555;
+}
+
+.btn--outline:hover{
+    background-color:#fdf2e9;
 }

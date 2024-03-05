@@ -10,6 +10,14 @@ html{
 font-size: 62.5%;
 }
 
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+
+}
+
 .test{
     background-color: rgb(254, 14, 6);
     padding: 10rem;
