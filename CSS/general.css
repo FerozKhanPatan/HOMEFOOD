@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+html{
+    /*font-size: 10px;*/
+/* 1rem = 10px */
+font-size: 62.5%;
+}
+
 .test{
-    background-color: brown;
-    padding: 100px;
-    max-width: 1000px;
+    background-color: rgb(254, 14, 6);
+    padding: 10rem;
+    /*10px*10rem = 100[x */
+    max-width: 100rem;
 }
