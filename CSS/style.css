@@ -117,7 +117,49 @@ width: 100%;
     margin-bottom: 4.8rem;
 }
 
+/* **************************** */
+/* ********How it works Section******** */
+/* **************************** */
 
+.grid{
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+    padding-top: 9.6rem;
+}
+
+.grid--2cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.el1{
+ background-color: red;  
+ padding: 100px; 
+ font-size: 40px;
+}
+.el2{
+    background-color: green;  
+    padding: 100px;  
+    font-size: 40px;
+}
+.el3{
+    background-color: blue; 
+    padding: 100px;
+    font-size: 40px;
+}
+.el4{
+    background-color: orchid; 
+    padding: 100px;
+    font-size: 40px;
+}
 
 
 
