@@ -198,6 +198,27 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
 }
 
+.step-img-box::before{
+    content: "";
+    width: 60%;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    background-color: #fdf2e9;
+    position: absolute;
+    z-index: -2;
+}
+
+.step-img-box::after{
+    content: "";
+    width: 45%;
+    padding-bottom: 45%;
+    border-radius: 50%;
+    background-color: #fae5de;
+    position: absolute;
+    z-index: -1;
+    
+}
