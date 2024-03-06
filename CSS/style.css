@@ -41,7 +41,7 @@
     display: grid;
     column-gap: 6.4rem;
     row-gap: 9.6rem;
-    padding-top: 9.6rem;
+    
 }
 
 .grid--2cols{
@@ -58,6 +58,23 @@
 
 .grid--5cols{
     grid-template-columns: repeat(5, 1fr);
+}
+
+.subheading{
+display: block;
+font-size: 1.6rem;
+font-weight: 500;
+color: #cf711f;
+text-transform: uppercase;
+margin-bottom: 1.6rem;
+}
+.heading-secondary{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    color: #333;
+
+
 }
 
 /* **************************** */
@@ -149,7 +166,9 @@ width: 100%;
 
 
 /* *********How it works Section*********/
-
+.step-img{
+    width: 35%;
+}
 
 
 
