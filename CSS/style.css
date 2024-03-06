@@ -41,6 +41,10 @@
     display: grid;
     column-gap: 6.4rem;
     row-gap: 9.6rem;
+}
+
+.grid--center-v{
+    align-items: center;    
     
 }
 
@@ -73,10 +77,13 @@ margin-bottom: 1.6rem;
     line-height: 1.2;
     margin-bottom: 9.6rem;
     color: #333;
-
-
 }
-
+.heading-tertiary{
+ font-size: 3.2rem;
+ line-height: 1.2;
+ margin-bottom: 9.6rem /* not working*/
+ color: #333;
+}
 /* **************************** */
 /* ********Header section******** */
 /* **************************** */
@@ -166,12 +173,31 @@ width: 100%;
 
 
 /* *********How it works Section*********/
+
+.section-how{
+    padding: 9.6rem 0;
+}
+
 .step-img{
     width: 35%;
 }
 
+.step-number{
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.5rem;
+}
 
+.step-description {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
 
+.step-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-
+}
 
