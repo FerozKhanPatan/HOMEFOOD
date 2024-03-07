@@ -193,8 +193,6 @@ font-size: 1.4rem;
     height: 3.2rem;
     filter: brightness(0);
     opacity: 50%;
-    
-    
 }
 
 /* *********How it works Section*********/
@@ -246,4 +244,20 @@ font-size: 1.4rem;
     position: absolute;
     z-index: -1;
     
+}
+
+/* *********CTA section*********/
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*background-color: #341fcf;*/
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    height: 50rem;
+    box-shadow: 0 2.4rem 4.8rem rgb(0, 0, 0, 0.15 );
+    border-radius: 12px;
+}
+
+.cta-img-box{
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url("../img/eating.jpg");
+    background-size: cover;
 }
